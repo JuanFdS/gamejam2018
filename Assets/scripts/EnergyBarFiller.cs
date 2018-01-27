@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnergyBarFiller : MonoBehaviour
 {
-    public Bird birdTransform;
+    public float energy = 100;
     // Use this for initialization
     void Start()
     {
@@ -13,7 +13,6 @@ public class EnergyBarFiller : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.localScale = new Vector3(birdTransform.energy/100, transform.localScale.y,transform.localScale.z);
-        //Debug.Log(birdTransform.energy / 100);
+        transform.localScale = new Vector3(energy / 100, transform.localScale.y,transform.localScale.z);
     }
 }

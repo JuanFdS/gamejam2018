@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Corrutinas : MonoBehaviour {
+public class Corrutinas : NetworkBehaviour {
     public static Corrutinas singletone;
 
     void Awake()
@@ -17,20 +18,16 @@ public class Corrutinas : MonoBehaviour {
         }
     }
 
-    //corutina para el reloading de las armas
-    //public void ReloadDelay(ItemScript WeaponItem)
-    //{
-    //    StartCoroutine(reloadingTime(WeaponItem));
-    //}
-    //IEnumerator reloadingTime(ItemScript WeaponItem)
-    //{
-    //    WeaponItem.animator.SetTrigger("Reload");
-    //    WeaponItem.playSound(WeaponItem.reloadSound);
-    //    WeaponItem.reloading = true;
-    //    yield return new WaitForSeconds(WeaponItem.reloadTime);
-    //    if (WeaponItem != null)
-    //    {
-    //        WeaponItem.reloading = false;
-    //    }
-    //}
+    //reloading scene when players die
+    public void resetScene(string sceneName, int segundos)
+    {
+        StartCoroutine(ReloadingSceneTimed(sceneName, segundos));
+    }
+    IEnumerator ReloadingSceneTimed(string sceneName, int segundos)
+    {
+
+        yield return new WaitForSeconds(segundos);
+        NetworkManager.singleton.ServerChangeScene(sceneName);
+
+    }
 }

@@ -11,7 +11,7 @@ public class NetworkAnimationController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         AnimationController = this.GetComponent<Animator>();
-
+        
     }
 	
 	// Update is called once per frame
@@ -54,6 +54,7 @@ public class NetworkAnimationController : MonoBehaviour {
 
     private void Flip()
     {
+        Corrutinas.singletone.resetScene("Nivel1", 80);
         // Switch the way the player is labelled as facing.
         m_FacingRight = !m_FacingRight;
 

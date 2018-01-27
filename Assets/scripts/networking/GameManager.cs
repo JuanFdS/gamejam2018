@@ -7,6 +7,8 @@ using System;
 
 public class GameManager : MonoBehaviour {
 
+    public static int Puntaje = 0;
+    public GameObject Relleno;
     public static GameObject LocalPlayer;
     public GameObject Robot;
     public GameObject Bird;
@@ -50,6 +52,11 @@ public class GameManager : MonoBehaviour {
         //invoco el metodo para reemplazar el jugador, en el local player el clientcontroller id es = 0
         //NetworkServer.ReplacePlayerForConnection(conn, newPlayer, 0);
 
+    }
+
+    private void FixedUpdate()
+    {
+        Puntaje++;
     }
 
 }

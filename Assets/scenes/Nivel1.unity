@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e207a9ae735ea8c4e993640156f046ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  birdTransform: {fileID: 0}
+  energy: 100
 --- !u!114 &562006012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +335,96 @@ Prefab:
     - target: {fileID: 4249705816173040, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da, type: 2}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i0
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i1
+      value: 142
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i2
+      value: 151
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i3
+      value: 231
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i4
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i5
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i6
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i7
+      value: 196
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i8
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i9
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i10
+      value: 219
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i11
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i12
+      value: 217
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i13
+      value: 226
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i14
+      value: 242
+      objectReference: {fileID: 0}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_AssetId.i15
+      value: 218
+      objectReference: {fileID: 0}
+    - target: {fileID: 114945732669228376, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: Relleno
+      value: 
+      objectReference: {fileID: 562006009}
+    - target: {fileID: 114637516549050860, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: m_ServerOnly
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da, type: 2}
@@ -558,7 +648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1345850157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +735,7 @@ GameObject:
   - component: {fileID: 1599606108}
   m_Layer: 0
   m_Name: energy bar
-  m_TagString: Untagged
+  m_TagString: energyBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

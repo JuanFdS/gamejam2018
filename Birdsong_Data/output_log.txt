@@ -2,13 +2,13 @@ Mono path[0] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Managed'
 Mono path[1] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono'
 Mono config path = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono/etc'
 PlayerConnection initialized from C:/projects/SongBird80/gamejam2018/Birdsong_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55369
-Multi-casting "[IP] 192.168.100.134 [Port] 55369 [Flags] 3 [Guid] 1613987903 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
-Waiting for connection from host on [0.0.0.0:55369]...
+PlayerConnection initialized network socket : 0.0.0.0 55136
+Multi-casting "[IP] 192.168.100.134 [Port] 55136 [Flags] 3 [Guid] 2993652334 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55136]...
 Timed out. Continuing without host connection.
-Started listening to [0.0.0.0:55369]
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56903
-PlayerConnection already initialized - listening to [0.0.0.0:55369]
+Started listening to [0.0.0.0:55136]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56334
+PlayerConnection already initialized - listening to [0.0.0.0:55136]
 Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -37,7 +37,7 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.607289 ms
+UnloadTime: 1.410637 ms
 MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -51,13 +51,445 @@ joinGame:Start() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\j
 (Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 327)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 4550 -> priority: 1 
-  Thread -> id: 41d8 -> priority: 1 
+  Thread -> id: 24fc -> priority: 1 
+  Thread -> id: 2e04 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.271507 ms
-System memory in use before: 21.0 MB.
-System memory in use after: 21.0 MB.
+UnloadTime: 6.339247 ms
+System memory in use before: 18.9 MB.
+System memory in use after: 18.9 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 540.
-Total: 0.465149 ms (FindLiveObjects: 0.034075 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.346090 ms  DeleteObjects: 0.059118 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 562.
+Total: 0.450779 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.333774 ms  DeleteObjects: 0.055834 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.748836 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.329258 ms (FindLiveObjects: 0.018885 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.283277 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.869537 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.348553 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.301341 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.697518 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.341574 ms (FindLiveObjects: 0.020937 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.294361 ms  DeleteObjects: 0.003284 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.444621 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.325152 ms (FindLiveObjects: 0.014779 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.835462 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.335416 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.289845 ms  DeleteObjects: 0.004926 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.521393 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.363333 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.307909 ms  DeleteObjects: 0.014369 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.732825 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.320226 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.275066 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.770595 ms
+System memory in use before: 23.2 MB.
+System memory in use after: 23.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
+Total: 0.339932 ms (FindLiveObjects: 0.019706 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.292719 ms  DeleteObjects: 0.004516 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.809597 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.330079 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.024222 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.897865 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.333363 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.287793 ms  DeleteObjects: 0.004926 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.734057 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.322278 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.278350 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.749247 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.324742 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.279171 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.818219 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.353069 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.305036 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.712298 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.332542 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.286150 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.771416 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.381397 ms (FindLiveObjects: 0.026274 ms CreateObjectMapping: 0.034075 ms MarkObjects: 0.312836 ms  DeleteObjects: 0.006979 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.656463 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.341164 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.296825 ms  DeleteObjects: 0.004516 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.115044 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.327205 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.698750 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.330079 ms (FindLiveObjects: 0.018885 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.282866 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.839156 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.358817 ms (FindLiveObjects: 0.020116 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.309141 ms  DeleteObjects: 0.005337 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.669190 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.353480 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.306267 ms  DeleteObjects: 0.003694 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.772237 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.343627 ms (FindLiveObjects: 0.018474 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.298056 ms  DeleteObjects: 0.003694 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.726667 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.328437 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.807544 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.362923 ms (FindLiveObjects: 0.027096 ms CreateObjectMapping: 0.034485 ms MarkObjects: 0.295182 ms  DeleteObjects: 0.005337 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.727898 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.326384 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.279582 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.684791 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.345269 ms (FindLiveObjects: 0.020937 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.297646 ms  DeleteObjects: 0.003694 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.700802 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.336648 ms (FindLiveObjects: 0.019706 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.289435 ms  DeleteObjects: 0.004105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.661390 ms
+System memory in use before: 23.3 MB.
+System memory in use after: 23.4 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
+Total: 0.334184 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.289024 ms  DeleteObjects: 0.004105 ms)
+
+Could not find target for network state message.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
+UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
+Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
+UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
+UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
+UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
+  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
+  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
+  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
+  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
+  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
+  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
+  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
+  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
+  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ 
+(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
 
