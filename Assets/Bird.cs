@@ -51,7 +51,8 @@ public class Bird : MonoBehaviour {
 
     public void die()
     {
-        enabled = false;
+        //enabled = false;
+        gameObject.SetActive(false);
     }
 
     public void aumentarEnergia()
