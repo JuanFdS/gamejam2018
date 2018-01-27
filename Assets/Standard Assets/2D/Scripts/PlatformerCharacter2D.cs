@@ -19,6 +19,8 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+        private bool collidingWithWall;
+        private bool onScreenEdge;
 
         private void Awake()
         {
@@ -46,6 +48,19 @@ namespace UnityStandardAssets._2D
 
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+
+            if(collidingWithWall) {
+                m_Anim.SetFloat("Speed", 2);
+            }
+        }
+
+        private void OnCollisionEnter2D(Collision2D other) {
+            collidingWithWall = true;
+            
+        }
+
+        private void OnCollisionExit2D(Collision2D other) {
+            collidingWithWall = false;
         }
 
 
