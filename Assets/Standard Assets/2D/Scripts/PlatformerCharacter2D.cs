@@ -20,6 +20,7 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         private bool collidingWithWall;
+        private float m_ActualSpeed;                    // The fastest the player can travel in the x axis.
         
         private void Awake()
         {
@@ -28,6 +29,7 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+            m_ActualSpeed = m_MaxSpeed;
         }
 
 
@@ -89,7 +91,7 @@ namespace UnityStandardAssets._2D
                 //m_Anim.SetFloat("Speed", Mathf.Abs(move));
 
                 // Move the character
-                m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
+                m_Rigidbody2D.velocity = new Vector2(move*m_ActualSpeed, m_Rigidbody2D.velocity.y);
 
                 // If the input is moving the player right and the player is facing left...
                 if (move > 0 && !m_FacingRight)
@@ -124,6 +126,14 @@ namespace UnityStandardAssets._2D
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+        }
+
+        public void SlowDown() {
+            m_ActualSpeed = m_MaxSpeed / 2;
+        }
+
+        public void BackToRegularSpeed() {
+            m_ActualSpeed = m_MaxSpeed;
         }
     }
 }
