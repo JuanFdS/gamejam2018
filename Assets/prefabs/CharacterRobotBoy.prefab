@@ -31,7 +31,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 6100000}
   - component: {fileID: 114410298957045716}
-  - component: {fileID: 114640655577559964}
+  - component: {fileID: 114878191012936650}
   m_Layer: 0
   m_Name: CharacterRobotBoy
   m_TagString: Player
@@ -267,7 +267,7 @@ MonoBehaviour:
     i15: 112
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114640655577559964
+--- !u!114 &114878191012936650
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -275,15 +275,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Script: {fileID: 11500000, guid: e9de747ec6d608d4b984ba2628a309b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TransformSyncMode: 2
-  m_SendInterval: 0.033333335
-  m_SyncRotationAxis: 3
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_SnapThreshold: 15
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 0.8
+  interpolationBackTime: 0.1
+  extrapolationTimeLimit: 0.3
+  extrapolationDistanceLimit: 0.3
+  sendMovementThreshold: 0.001
+  sendRotationThreshold: 0.001
+  sendVelocityThreshold: 0.001
+  sendAngularVelocityThreshold: 0.001
+  receivedMovementThreshold: 0.001
+  receivedRotationThreshold: 0.001
+  positionSnapThreshold: 5
+  rotationSnapThreshold: 60
+  lerpSpeed: 0.2
+  syncPosition: 1
+  syncRotation: 4
+  syncVelocity: 1
+  syncAngularVelocity: 7
+  isPositionCompressed: 1
+  isRotationCompressed: 1
+  isVelocityCompressed: 1
+  isAngularVelocityCompressed: 1
+  whereToUpdateTransform: 1
+  sendRate: 30
+  networkChannel: 1
+  childObjectToSync: {fileID: 0}
