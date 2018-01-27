@@ -40,10 +40,31 @@ public class Bird : MonoBehaviour {
     //    }
     //}
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.GetComponent<Collider2D>().CompareTag("Floor"))
+        {
+            die();
+            //Debug.Log();
+        }
+    }
+
+    public void die()
+    {
+        //enabled = false;
+        gameObject.SetActive(false);
+    }
+
     public void aumentarEnergia()
     {
         energy += 1f;
         if (energy > 100) energy = 100;
+    }
+
+    public void push()
+    {
+        Debug.Log("push");
+        rb.velocity = new Vector2(rb.velocity.x, 8);
     }
 }
  
