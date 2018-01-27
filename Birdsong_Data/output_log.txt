@@ -2,13 +2,13 @@ Mono path[0] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Managed'
 Mono path[1] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono'
 Mono config path = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono/etc'
 PlayerConnection initialized from C:/projects/SongBird80/gamejam2018/Birdsong_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55467
-Multi-casting "[IP] 172.28.203.168 [Port] 55467 [Flags] 3 [Guid] 2052158862 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
-Waiting for connection from host on [0.0.0.0:55467]...
+PlayerConnection initialized network socket : 0.0.0.0 55369
+Multi-casting "[IP] 192.168.100.134 [Port] 55369 [Flags] 3 [Guid] 1613987903 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55369]...
 Timed out. Continuing without host connection.
-Started listening to [0.0.0.0:55467]
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56862
-PlayerConnection already initialized - listening to [0.0.0.0:55467]
+Started listening to [0.0.0.0:55369]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56903
+PlayerConnection already initialized - listening to [0.0.0.0:55369]
 Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -30,14 +30,14 @@ Platform assembly: C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\Unit
 Loading C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.167 seconds
+- Completed reload, in  0.021 seconds
 Platform assembly: C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\projects\SongBird80\gamejam2018\Birdsong_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.954611 ms
+UnloadTime: 1.607289 ms
 MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -51,13 +51,13 @@ joinGame:Start() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\j
 (Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 327)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3acc -> priority: 1 
-  Thread -> id: 2d88 -> priority: 1 
+  Thread -> id: 4550 -> priority: 1 
+  Thread -> id: 41d8 -> priority: 1 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.622935 ms
+UnloadTime: 6.271507 ms
 System memory in use before: 21.0 MB.
 System memory in use after: 21.0 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.618693 ms (FindLiveObjects: 0.034896 ms CreateObjectMapping: 0.023401 ms MarkObjects: 0.490603 ms  DeleteObjects: 0.068971 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 540.
+Total: 0.465149 ms (FindLiveObjects: 0.034075 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.346090 ms  DeleteObjects: 0.059118 ms)
 

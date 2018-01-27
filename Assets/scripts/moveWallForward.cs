@@ -5,7 +5,7 @@ using UnityEngine;
 public class moveWallForward : MonoBehaviour {
 
 	public Transform transformCamara;
-	public int offsetCamara;
+	public float offsetCamara;
 	// Use this for initialization
 	void Start () {
 		

@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour {
     public GameObject Observer;
     public static GameManager singletone;
     public static int CantidadJugadores;
-    public static int CantidadPajaros;
     //Almaceno el si el jugador local es raptor o humano para que los jugadores remotos que se setean localmente puedan saber si activar o no su markador de radar.
     public static string LocalPlayerCharacter;
     [SerializeField]
@@ -50,16 +49,6 @@ public class GameManager : MonoBehaviour {
         //Destroy(player);
         //invoco el metodo para reemplazar el jugador, en el local player el clientcontroller id es = 0
         //NetworkServer.ReplacePlayerForConnection(conn, newPlayer, 0);
-
-    }
-
-    
-    public void CheckIfBirdPicked(string tag)
-    {
-        if (CantidadPajaros > 0)
-        {
-            
-        }
 
     }
 

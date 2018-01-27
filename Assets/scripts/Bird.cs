@@ -6,11 +6,12 @@ public class Bird : PlayerControlled {
 
     Rigidbody2D rb;
     public float energy = 100f;
+    Camera mainCamera;
 
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
-
+        mainCamera = FindObjectOfType<Camera>();
     }
 	
 	// Update is called once per frame
@@ -28,7 +29,8 @@ public class Bird : PlayerControlled {
             energy = 100;
         }
         rb.velocity = new Vector2(2, rb.velocity.y);
-        //transform.position = new Vector2(transform.position.x + 0.01f, transform.position.y);
+        transform.position = new Vector2(transform.position.x + 0.01f, transform.position.y);
+        mainCamera.transform.position = new Vector3(transform.position.x, mainCamera.transform.position.y, -10);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
