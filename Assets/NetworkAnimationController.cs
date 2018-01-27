@@ -15,13 +15,22 @@ public class NetworkAnimationController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if(this.transform.position.x != previousPosition.x)
+		if(this.transform.position.x != previousPosition.x && Mathf.Abs(this.transform.position.y - previousPosition.y) < 0.01)
         {
-            previousPosition = this.transform.position;
             AnimationController.SetFloat("Speed", 1);
         }
         else
             AnimationController.SetFloat("Speed", 0);
+
+        if(Mathf.Abs(this.transform.position.y - previousPosition.y) > 0.01)
+        {
+            AnimationController.SetFloat("vSpeed", 1);
+        }
+        else
+            AnimationController.SetFloat("vSpeed", 0);
+
+        previousPosition = this.transform.position;
+
     }
     
 }
