@@ -757,7 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b782dcf8c4fbcb84a88cead00ce16be8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomSize: 20
+  roomSize: 2
 --- !u!4 &573085009
 Transform:
   m_ObjectHideFlags: 0
@@ -1147,7 +1147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   status: {fileID: 1922615570}
-  RoomListItemPrefab: {fileID: 0}
+  RoomListItemPrefab: {fileID: 1000010527893314, guid: 916f3b0aa50bf5f49a5dec232db59670,
+    type: 2}
   RoomListParent: {fileID: 1212434268}
 --- !u!1 &905676089
 GameObject:
