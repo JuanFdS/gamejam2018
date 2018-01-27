@@ -46,7 +46,7 @@ public class Bird : PlayerControlled {
         {
             die();
             //Debug.Log();
-        }
+        };
     }
 
     public void aumentarEnergia()
@@ -57,7 +57,6 @@ public class Bird : PlayerControlled {
 
     public void push()
     {
-        Debug.Log("push");
         rb.velocity = new Vector2(rb.velocity.x, 8);
     }
 }
