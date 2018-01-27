@@ -20,8 +20,7 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         private bool collidingWithWall;
-        private bool onScreenEdge;
-
+        
         private void Awake()
         {
             // Setting up references.
