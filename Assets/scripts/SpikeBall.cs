@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class SpikeBall : MonoBehaviour {
 
+    private Rigidbody2D rb;
 	// Use this for initialization
 	void Start () {
-		
+        rb =  GetComponent<Rigidbody2D>();
+		rb.gravityScale = 0;
 	}
 	
 	// Update is called once per frame
@@ -18,7 +20,7 @@ public class SpikeBall : MonoBehaviour {
     {
         if (collision.GetComponent<Collider2D>().CompareTag("Bird"))
         {
-            collision.GetComponent<Bird>().die();
+            rb.gravityScale = 3;
             //Debug.Log();
         }
     }

@@ -31,15 +31,6 @@ public class Bird : PlayerControlled {
         //transform.position = new Vector2(transform.position.x + 0.01f, transform.position.y);
     }
 
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (collision.GetComponent<Collider2D>().CompareTag("Antena"))
-    //    {
-    //        aumentarEnergia();
-    //        //Debug.Log();
-    //    }
-    //}
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.GetComponent<Collider2D>().CompareTag("Floor"))
