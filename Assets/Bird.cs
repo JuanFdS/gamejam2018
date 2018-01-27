@@ -45,5 +45,10 @@ public class Bird : MonoBehaviour {
         energy += 1f;
         if (energy > 100) energy = 100;
     }
+
+    public void push()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + 10);
+    }
 }
  
