@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bird : MonoBehaviour {
+public class Bird : PlayerControlled {
 
     Rigidbody2D rb;
     public float energy = 100f;
@@ -47,12 +47,6 @@ public class Bird : MonoBehaviour {
             die();
             //Debug.Log();
         }
-    }
-
-    public void die()
-    {
-        //enabled = false;
-        gameObject.SetActive(false);
     }
 
     public void aumentarEnergia()
