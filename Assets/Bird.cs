@@ -63,7 +63,7 @@ public class Bird : MonoBehaviour {
     public void push()
     {
         Debug.Log("push");
-        rb.velocity = new Vector2(rb.velocity.x, 9);
+        rb.velocity = new Vector2(rb.velocity.x, 8);
     }
 }
  
