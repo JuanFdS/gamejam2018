@@ -32,7 +32,7 @@ GameObject:
   - component: {fileID: 6100000}
   - component: {fileID: 114410298957045716}
   - component: {fileID: 114878191012936650}
-  - component: {fileID: 114734748890048540}
+  - component: {fileID: 114282592278943958}
   m_Layer: 0
   m_Name: CharacterRobotBoy
   m_TagString: Player
@@ -236,6 +236,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100002}
   m_IsPrefabParent: 1
+--- !u!114 &114282592278943958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6730745b54a97641b2aca9e0a93008f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationController: {fileID: 0}
 --- !u!114 &114410298957045716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -268,25 +280,6 @@ MonoBehaviour:
     i15: 112
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114734748890048540
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1590678366, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Animator: {fileID: 9500000}
-  m_ParameterSendBits: 9
-  param0: 
-  param1: 
-  param2: 
-  param3: 
-  param4: 
-  param5: 
 --- !u!114 &114878191012936650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -298,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9de747ec6d608d4b984ba2628a309b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interpolationBackTime: 0.05
+  interpolationBackTime: 0.1
   extrapolationTimeLimit: 0.3
   extrapolationDistanceLimit: 0.3
   sendMovementThreshold: 0.001
@@ -312,13 +305,13 @@ MonoBehaviour:
   lerpSpeed: 0.3
   syncPosition: 1
   syncRotation: 4
-  syncVelocity: 7
+  syncVelocity: 1
   syncAngularVelocity: 7
-  isPositionCompressed: 0
-  isRotationCompressed: 0
-  isVelocityCompressed: 0
+  isPositionCompressed: 1
+  isRotationCompressed: 1
+  isVelocityCompressed: 1
   isAngularVelocityCompressed: 0
   whereToUpdateTransform: 1
-  sendRate: 60
+  sendRate: 30
   networkChannel: 1
   childObjectToSync: {fileID: 0}
