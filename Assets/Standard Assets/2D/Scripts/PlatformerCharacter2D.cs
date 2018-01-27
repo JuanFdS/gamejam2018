@@ -18,7 +18,6 @@ namespace UnityStandardAssets._2D
         const float k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
-        private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         private bool collidingWithWall;
         private float m_ActualSpeed;                    // The fastest the player can travel in the x axis.
         

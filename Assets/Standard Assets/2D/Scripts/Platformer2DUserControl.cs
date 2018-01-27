@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Networking;
 
 namespace UnityStandardAssets._2D
 {
     [RequireComponent(typeof (PlatformerCharacter2D))]
-    public class Platformer2DUserControl : MonoBehaviour
+    public class Platformer2DUserControl : NetworkBehaviour
     {
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
@@ -29,6 +30,9 @@ namespace UnityStandardAssets._2D
 
         private void FixedUpdate()
         {
+            if (!isLocalPlayer)
+                return;
+
             // Read the inputs.
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");

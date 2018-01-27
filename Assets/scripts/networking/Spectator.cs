@@ -3,13 +3,17 @@ using System.Collections;
 using UnityEngine.Networking;
 
 public class Spectator : NetworkBehaviour {
-	public GameObject playerPrefab;
+	GameObject playerPrefab;
     public GameObject playerBird;
     public GameObject playerRobot;
 
     public override void OnStartClient()
     {
         GameManager.CantidadJugadores++;
+    }
+    public override void OnStartLocalPlayer()
+    {
+        Spawn();
     }
 
     public void Spawn(){
@@ -19,14 +23,14 @@ public class Spectator : NetworkBehaviour {
 	}
 	[Command]
 	void Cmd_Spawn(){
-		if (hasAuthority) {
-			Transform spawn = NetworkManager.singleton.GetStartPosition ();
-			GameObject player = (GameObject)Instantiate (playerPrefab, spawn.position, spawn.rotation);
-			player.SendMessage("SetStartPosition",spawn.position,SendMessageOptions.DontRequireReceiver);
-			player.SendMessage("SetStartRotation",spawn.rotation,SendMessageOptions.DontRequireReceiver);
-			NetworkServer.Destroy(gameObject);
-			NetworkServer.ReplacePlayerForConnection(connectionToClient, player, playerControllerId);
-		}
-	}
+        if ((isLocalPlayer && !isServer) || !isLocalPlayer)
+            playerPrefab = playerBird;
+        else
+            playerPrefab = playerRobot;
+
+        GameObject player = (GameObject)Instantiate(playerPrefab, playerPrefab.transform.position, playerPrefab.transform.rotation);
+        NetworkServer.Destroy(gameObject);
+        NetworkServer.ReplacePlayerForConnection(connectionToClient, player, playerControllerId);
+    }
 
 }

@@ -35,18 +35,21 @@ public class NetworkAnimationController : MonoBehaviour {
 
         previousPosition = this.transform.position;
 
-        if (moveX > 0 && !m_FacingRight)
+        //evito que las los pequenios cambios en la red generen falsas animaciones
+        if(Mathf.Abs(moveX) > 0.01)
         {
-            // ... flip the player.
-            Flip();
+            if (moveX > 0 && !m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
+            // Otherwise if the input is moving the player left and the player is facing right...
+            else if (moveX < 0 && m_FacingRight)
+            {
+                // ... flip the player.
+                Flip();
+            }
         }
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (moveX < 0 && m_FacingRight)
-        {
-            // ... flip the player.
-            Flip();
-        }
-
     }
 
     private void Flip()
