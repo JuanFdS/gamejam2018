@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bird : MonoBehaviour {
 
     Rigidbody2D rb;
-    float energy = 100f;
+    public float energy = 100f;
 
 	// Use this for initialization
 	void Start () {
