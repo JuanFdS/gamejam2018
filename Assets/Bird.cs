@@ -40,6 +40,20 @@ public class Bird : MonoBehaviour {
     //    }
     //}
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.GetComponent<Collider2D>().CompareTag("Floor"))
+        {
+            die();
+            //Debug.Log();
+        }
+    }
+
+    public void die()
+    {
+        enabled = false;
+    }
+
     public void aumentarEnergia()
     {
         energy += 1f;
@@ -48,7 +62,8 @@ public class Bird : MonoBehaviour {
 
     public void push()
     {
-        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + 10);
+        Debug.Log("push");
+        rb.velocity = new Vector2(rb.velocity.x, 9);
     }
 }
  
