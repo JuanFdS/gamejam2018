@@ -12,16 +12,17 @@ public class SpikeBall : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if(collision.collider.GetComponent<Collider2D>().CompareTag("Player")) {
+            collision.collider.GetComponent<PlayerControlled>().die();
+        }
+    }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.GetComponent<Collider2D>().CompareTag("Bird"))
+        if (other.GetComponent<Collider2D>().CompareTag("Bird"))
         {
             rb.gravityScale = 3;
-            //Debug.Log();
         }
     }
 }
