@@ -19,7 +19,7 @@ public class Trip : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision) {
-		if (collision.GetComponent<Collider2D>().CompareTag("Player"))
+		if (collision.GetComponent<Collider2D>().CompareTag(tagTarget))
         {
             collision.GetComponent<PlayerControlled>().trip(slowDownFactor, trippingTime);
         }

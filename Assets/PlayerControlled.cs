@@ -19,7 +19,7 @@ public class PlayerControlled : MonoBehaviour {
 	void FixedUpdate () {
 		control.enabled = !IsTripping();
 		timeLeftToTrip = Math.Max(0, timeLeftToTrip - 1);
-	}
+            }
 
 	private bool IsTripping () {
 		return timeLeftToTrip > 0;
