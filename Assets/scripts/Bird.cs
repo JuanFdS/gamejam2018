@@ -10,6 +10,7 @@ public class Bird : PlayerControlled {
     public float pushSpeedY;
     public float speedX;
     public float energyRecharge;
+    public AudioSource aleteo;
     public AudioSource pushSound;
     Rigidbody2D rb;
     Camera mainCamera;
@@ -30,8 +31,13 @@ public class Bird : PlayerControlled {
         {
             //transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
 
+            aleteo.enabled = true;
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + flySpeedY);
             energyBar.energy = Math.Max(0, energyBar.energy - energyLoss);
+        }
+        else
+        {
+            aleteo.enabled = false;
         }
         if (Input.GetKey(KeyCode.Y))
         {
