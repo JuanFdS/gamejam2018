@@ -28,7 +28,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1837638872531170
 GameObject:
@@ -117,7 +117,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ebecdbcf8b8cd5146afbd0f96b397d33, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b907ffd4fcc724ebc8f8f9b47e5b5fe8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -126,9 +126,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 239
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 11.281228
-  MaxDistance: 15
+  MaxDistance: 28
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -138,31 +138,25 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.27105385
-      value: 0.008331299
+      time: 0.63901955
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.4278344
-      value: 0.37789696
-      inSlope: 2.8353422
-      outSlope: 2.8353422
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.6628894
-      value: 0.6430905
+      time: 0.7039966
+      value: 0.19670987
       inSlope: 0.092983246
       outSlope: 0.092983246
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.7906734
-      value: 0.43624687
+      time: 0.7950069
+      value: 0.4298687
       inSlope: -5.1509376
       outSlope: -5.1509376
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.8286438
+      time: 0.869751
       value: 0
       inSlope: -4.003316
       outSlope: -4.003316
@@ -226,7 +220,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1.5166368
-  MaxDistance: 11.29741
+  MaxDistance: 24
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -324,6 +318,8 @@ MonoBehaviour:
     type: 2}
   audioSource: {fileID: 82837601570931072}
   backgroundAudio: {fileID: 0}
+  reducingBackVolume: 0
+  increasingBackVolume: 0
 --- !u!114 &114475229536480930
 MonoBehaviour:
   m_ObjectHideFlags: 1

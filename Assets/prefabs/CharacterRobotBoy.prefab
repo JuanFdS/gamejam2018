@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08f91df3bd212f429df17f53ce2f364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxSpeed: 15
+  m_MaxSpeed: 12
   m_JumpForce: 135
   m_CrouchSpeed: 0.48
   m_AirControl: 1
@@ -519,9 +519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9de747ec6d608d4b984ba2628a309b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interpolationBackTime: 0.1
-  extrapolationTimeLimit: 0.1
-  extrapolationDistanceLimit: 0.1
+  interpolationBackTime: 0
+  extrapolationTimeLimit: 0.5
+  extrapolationDistanceLimit: 1
   sendMovementThreshold: 0.001
   sendRotationThreshold: 0.001
   sendVelocityThreshold: 0.001
@@ -530,7 +530,7 @@ MonoBehaviour:
   receivedRotationThreshold: 0.001
   positionSnapThreshold: 5
   rotationSnapThreshold: 60
-  lerpSpeed: 0.4
+  lerpSpeed: 0.5
   syncPosition: 1
   syncRotation: 7
   syncVelocity: 7
