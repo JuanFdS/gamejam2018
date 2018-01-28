@@ -937,21 +937,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 62
       objectReference: {fileID: 0}
-    - target: {fileID: 50781713695824394, guid: 9ba6cc2d4f64b4014a8dfd29e3dd69e2,
-        type: 2}
-      propertyPath: m_GravityScale
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114940759499289992, guid: 9ba6cc2d4f64b4014a8dfd29e3dd69e2,
-        type: 2}
-      propertyPath: flySpeedY
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114940759499289992, guid: 9ba6cc2d4f64b4014a8dfd29e3dd69e2,
-        type: 2}
-      propertyPath: energyRecharge
-      value: 2.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ba6cc2d4f64b4014a8dfd29e3dd69e2, type: 2}
   m_IsPrefabParent: 0

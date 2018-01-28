@@ -10,6 +10,7 @@ public class Bird : PlayerControlled {
     public float pushSpeedY;
     public float speedX;
     public float energyRecharge;
+    public AudioSource pushSound;
     Rigidbody2D rb;
     Camera mainCamera;
     EnergyBarFiller energyBar;
@@ -58,6 +59,7 @@ public class Bird : PlayerControlled {
 
     public void push()
     {
+        pushSound.Play();
         rb.velocity = new Vector2(rb.velocity.x, pushSpeedY);
     }
 }
