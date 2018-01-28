@@ -439,28 +439,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9de747ec6d608d4b984ba2628a309b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interpolationBackTime: 0.05
-  extrapolationTimeLimit: 0.05
-  extrapolationDistanceLimit: 0.05
-  sendMovementThreshold: 0.0001
-  sendRotationThreshold: 0.0001
-  sendVelocityThreshold: 0.0001
-  sendAngularVelocityThreshold: 0.0001
-  receivedMovementThreshold: 0.0001
+  interpolationBackTime: 0.1
+  extrapolationTimeLimit: 0.1
+  extrapolationDistanceLimit: 0.1
+  sendMovementThreshold: 0.001
+  sendRotationThreshold: 0.001
+  sendVelocityThreshold: 0.001
+  sendAngularVelocityThreshold: 0.001
+  receivedMovementThreshold: 0.001
   receivedRotationThreshold: 0.001
-  positionSnapThreshold: 2
+  positionSnapThreshold: 5
   rotationSnapThreshold: 60
-  lerpSpeed: 0.7
+  lerpSpeed: 0.2
   syncPosition: 1
   syncRotation: 7
   syncVelocity: 1
   syncAngularVelocity: 7
-  isPositionCompressed: 1
+  isPositionCompressed: 0
   isRotationCompressed: 0
-  isVelocityCompressed: 1
+  isVelocityCompressed: 0
   isAngularVelocityCompressed: 0
-  whereToUpdateTransform: 1
-  sendRate: 30
+  whereToUpdateTransform: 0
+  sendRate: 60
   networkChannel: 1
   childObjectToSync: {fileID: 0}
 --- !u!114 &114895720077415508
