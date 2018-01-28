@@ -168,6 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4802e7b11ea09994ea25e761e6987f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flySpeedY: 0.3
+  energyLoss: 2.5
 --- !u!212 &212310708325581528
 SpriteRenderer:
   m_ObjectHideFlags: 1

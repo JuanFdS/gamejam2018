@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Bird : PlayerControlled {
 
+    public float flySpeedY;
+    public float energyLoss;
     Rigidbody2D rb;
     Camera mainCamera;
     EnergyBarFiller energyBar;
@@ -23,8 +26,8 @@ public class Bird : PlayerControlled {
         {
             //transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
 
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + 0.3f);
-            energyBar.energy -= 0.5f;
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + flySpeedY);
+            energyBar.energy = Math.Max(0, energyBar.energy - energyLoss);
         }
         if (Input.GetKey(KeyCode.Y))
         {
