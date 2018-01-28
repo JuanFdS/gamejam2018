@@ -19,6 +19,6 @@ public class RestrainPosToScreen : MonoBehaviour {
         {
             transform.position = new Vector2(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x, transform.position.y);
         }
-        Debug.Log(Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)));
+        //Debug.Log(Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)));
 	}
 }
