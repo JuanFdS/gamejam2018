@@ -13,9 +13,7 @@ public class GameManager : NetworkBehaviour {
     public static bool isGameOver = false;
     public GameObject Relleno;
     public static GameObject LocalPlayer;
-    public GameObject Robot;
-    public GameObject Bird;
-    public GameObject Observer;
+    public GameObject EnergyBar;
     public static GameManager singletone;
     public static int CantidadJugadores;
     //Almaceno el si el jugador local es raptor o humano para que los jugadores remotos que se setean localmente puedan saber si activar o no su markador de radar.
@@ -32,8 +30,6 @@ public class GameManager : NetworkBehaviour {
         {
             singletone = this;
         }
-
-        LocalPlayer = Observer;
     }
 
     private void FixedUpdate()

@@ -267,7 +267,7 @@ MonoBehaviour:
   flySpeedY: 0.5
   energyLoss: 1
   pushSpeedY: 8
-  speedX: 0.1
+  speedX: 0.08
   energyRecharge: 2.5
   aleteo: {fileID: 82029471682201400}
   pushSound: {fileID: 82029471682201400}

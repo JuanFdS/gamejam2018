@@ -86,6 +86,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOverScreen: {fileID: 0}
   Relleno: {fileID: 0}
-  Robot: {fileID: 0}
-  Bird: {fileID: 0}
-  Observer: {fileID: 0}
+  EnergyBar: {fileID: 0}

@@ -24,7 +24,10 @@ public class Spectator : NetworkBehaviour {
 	[Command]
 	void Cmd_Spawn(){
         if ((isLocalPlayer && !isServer) || !isLocalPlayer)
+        {
             playerPrefab = playerBird;
+            GameManager.singletone.EnergyBar.SetActive(true);
+        }
         else
             playerPrefab = playerRobot;
 
