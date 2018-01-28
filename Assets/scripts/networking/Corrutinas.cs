@@ -19,15 +19,15 @@ public class Corrutinas : NetworkBehaviour {
     }
 
     //reloading scene when players die
-    public void resetScene(string sceneName, int segundos)
-    {
-        StartCoroutine(ReloadingSceneTimed(sceneName, segundos));
-    }
-    IEnumerator ReloadingSceneTimed(string sceneName, int segundos)
-    {
+    //public void resetScene(string sceneName, int segundos)
+    //{
+    //    StartCoroutine(ReloadingSceneTimed(sceneName, segundos));
+    //}
+    //IEnumerator ReloadingSceneTimed(string sceneName, int segundos)
+    //{
+    //    yield return new WaitForSeconds(segundos);
+    
+    //}
 
-        yield return new WaitForSeconds(segundos);
-        NetworkManager.singleton.ServerChangeScene(sceneName);
-
-    }
+    
 }

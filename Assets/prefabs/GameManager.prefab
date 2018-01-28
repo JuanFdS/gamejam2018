@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4249705816173040}
   - component: {fileID: 114945732669228376}
   - component: {fileID: 114637516549050860}
-  - component: {fileID: 114430748795187608}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -42,17 +41,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114430748795187608
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1547139194047060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 552aa890d0917404e81ceae4a564e1cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114637516549050860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,6 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9678373afbe9a7d4e9f6a2dfbd111bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverScreen: {fileID: 0}
   Relleno: {fileID: 0}
   Robot: {fileID: 0}
   Bird: {fileID: 0}

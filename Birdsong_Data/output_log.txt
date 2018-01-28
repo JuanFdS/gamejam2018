@@ -2,13 +2,13 @@ Mono path[0] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Managed'
 Mono path[1] = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono'
 Mono config path = 'C:/projects/SongBird80/gamejam2018/Birdsong_Data/Mono/etc'
 PlayerConnection initialized from C:/projects/SongBird80/gamejam2018/Birdsong_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55136
-Multi-casting "[IP] 192.168.100.134 [Port] 55136 [Flags] 3 [Guid] 2993652334 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
-Waiting for connection from host on [0.0.0.0:55136]...
+PlayerConnection initialized network socket : 0.0.0.0 55511
+Multi-casting "[IP] 172.28.203.168 [Port] 55511 [Flags] 3 [Guid] 348322176 [EditorId] 4276543948 [Version] 1048832 [Id] WindowsPlayer(User-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55511]...
 Timed out. Continuing without host connection.
-Started listening to [0.0.0.0:55136]
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56334
-PlayerConnection already initialized - listening to [0.0.0.0:55136]
+Started listening to [0.0.0.0:55511]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56176
+PlayerConnection already initialized - listening to [0.0.0.0:55511]
 Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -37,7 +37,7 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.410637 ms
+UnloadTime: 1.419259 ms
 MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -51,445 +51,478 @@ joinGame:Start() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\j
 (Filename: C:/buildslave/unity/build/Runtime/Networking/Managed/MatchMakingClient.cs Line: 327)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 24fc -> priority: 1 
-  Thread -> id: 2e04 -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.339247 ms
-System memory in use before: 18.9 MB.
-System memory in use after: 18.9 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 562.
-Total: 0.450779 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.333774 ms  DeleteObjects: 0.055834 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.748836 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.329258 ms (FindLiveObjects: 0.018885 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.283277 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.869537 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.348553 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.301341 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.697518 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.341574 ms (FindLiveObjects: 0.020937 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.294361 ms  DeleteObjects: 0.003284 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.444621 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.325152 ms (FindLiveObjects: 0.014779 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.835462 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.335416 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.289845 ms  DeleteObjects: 0.004926 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.521393 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.363333 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.307909 ms  DeleteObjects: 0.014369 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.732825 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.320226 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.275066 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.770595 ms
-System memory in use before: 23.2 MB.
-System memory in use after: 23.2 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 541.
-Total: 0.339932 ms (FindLiveObjects: 0.019706 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.292719 ms  DeleteObjects: 0.004516 ms)
-
-Could not find target for network state message.
+  Thread -> id: 3fc4 -> priority: 1 
+  Thread -> id: 4318 -> priority: 1 
+Could not register 'Bird' since it contains no NetworkIdentity component
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:141)
+UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:443)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:386)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:553)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:541)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 141)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
- 
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.809597 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.330079 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.024222 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.897865 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.333363 ms (FindLiveObjects: 0.017242 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.287793 ms  DeleteObjects: 0.004926 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.734057 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.322278 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.278350 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.749247 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.324742 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.279171 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.818219 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.353069 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.305036 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.712298 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.332542 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.286150 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.771416 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.381397 ms (FindLiveObjects: 0.026274 ms CreateObjectMapping: 0.034075 ms MarkObjects: 0.312836 ms  DeleteObjects: 0.006979 ms)
-
-Could not find target for network state message.
+StartServer listen failed.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
- 
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.656463 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.341164 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.296825 ms  DeleteObjects: 0.004516 ms)
-
-Could not find target for network state message.
+StartServer listen failed.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
- 
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.115044 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.327205 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.698750 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.330079 ms (FindLiveObjects: 0.018885 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.282866 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.839156 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.358817 ms (FindLiveObjects: 0.020116 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.309141 ms  DeleteObjects: 0.005337 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.669190 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.353480 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.306267 ms  DeleteObjects: 0.003694 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.772237 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.343627 ms (FindLiveObjects: 0.018474 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.298056 ms  DeleteObjects: 0.003694 ms)
-
-Could not find target for network state message.
+StartServer listen failed.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
- 
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.726667 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.328437 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.282455 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.807544 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.362923 ms (FindLiveObjects: 0.027096 ms CreateObjectMapping: 0.034485 ms MarkObjects: 0.295182 ms  DeleteObjects: 0.005337 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.727898 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.326384 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.279582 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.684791 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.345269 ms (FindLiveObjects: 0.020937 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.297646 ms  DeleteObjects: 0.003694 ms)
-
-Could not find target for network state message.
+Could not register 'Bird' since it contains no NetworkIdentity component
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:141)
+UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:443)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:386)
+UnityEngine.Networking.NetworkManager:StartClient(MatchInfo, ConnectionConfig) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:458)
+UnityEngine.Networking.NetworkManager:StartClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:507)
+joinGame:JoinLanGame() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\joinGame.cs:128)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 141)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
- 
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.700802 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.336648 ms (FindLiveObjects: 0.019706 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.289435 ms  DeleteObjects: 0.004105 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.661390 ms
-System memory in use before: 23.3 MB.
-System memory in use after: 23.4 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 544.
-Total: 0.334184 ms (FindLiveObjects: 0.017653 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.289024 ms  DeleteObjects: 0.004105 ms)
-
-Could not find target for network state message.
+A connection has already been set as ready. There can only be one.
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Smooth.NetworkState:Deserialize(NetworkReader) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\State.cs:348)
-UnityEngine.Networking.NetworkMessage:ReadMessage() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\UNetwork.cs:163)
-Smooth.SmoothSync:HandleSyncFromOwnerToServer(NetworkMessage) (at C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1364)
-UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469)
-UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425)
-UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576)
-UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751)
-UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845)
-UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384)
-UnityEngine.Networking.NetworkServerSimple:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247)
-UnityEngine.Networking.NetworkServer:InternalUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704)
-UnityEngine.Networking.NetworkServer:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655)
-UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.ClientScene:Ready(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:295)
+UnityEngine.Networking.NetworkManager:OnClientConnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1111)
+UnityEngine.Networking.NetworkManager:OnClientConnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:919)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:718)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:949)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/State.cs Line: 348)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/ClientScene.cs Line: 295)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at Smooth.SmoothSync.HandleSyncFromOwnerToServer (UnityEngine.Networking.NetworkMessage msg) [0x00019] in C:\projects\SongBird80\gamejam2018\Assets\Plugins\Smooth Sync\SmoothSync.cs:1366 
-  at UnityEngine.Networking.NetworkConnection.HandleReader (UnityEngine.Networking.NetworkReader reader, Int32 receivedSize, Int32 channelId) [0x00130] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:469 
-  at UnityEngine.Networking.NetworkConnection.HandleBytes (System.Byte[] buffer, Int32 receivedSize, Int32 channelId) [0x0000c] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:425 
-  at UnityEngine.Networking.NetworkConnection.TransportRecieve (System.Byte[] bytes, Int32 numBytes, Int32 channelId) [0x00005] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:576 
-  at UnityEngine.Networking.NetworkServer.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000f] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:751 
-  at UnityEngine.Networking.NetworkServer+ServerSimpleWrapper.OnData (UnityEngine.Networking.NetworkConnection conn, Int32 receivedSize, Int32 channelId) [0x0000a] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:1845 
-  at UnityEngine.Networking.NetworkServerSimple.HandleData (Int32 connectionId, Int32 channelId, Int32 receivedSize, Byte error) [0x00063] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:384 
-  at UnityEngine.Networking.NetworkServerSimple.Update () [0x00151] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:247 
-  at UnityEngine.Networking.NetworkServer.InternalUpdate () [0x00007] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:704 
-  at UnityEngine.Networking.NetworkServer.Update () [0x00014] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:655 
-  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00001] in C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090 
+ClientScene::AddPlayer: playerControllerId of 0 already in use.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.ClientScene:AddPlayer(NetworkConnection, Int16, MessageBase) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:182)
+UnityEngine.Networking.ClientScene:AddPlayer(NetworkConnection, Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:135)
+UnityEngine.Networking.ClientScene:AddPlayer(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:129)
+UnityEngine.Networking.NetworkManager:OnClientConnect(NetworkConnection) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:1114)
+UnityEngine.Networking.NetworkManager:OnClientConnectInternal(NetworkMessage) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:919)
+UnityEngine.Networking.NetworkConnection:InvokeHandler(Int16, NetworkReader, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:220)
+UnityEngine.Networking.NetworkConnection:InvokeHandlerNoData(Int16) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkConnection.cs:202)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:718)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:949)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1091)
  
-(Filename: C:/projects/SongBird80/gamejam2018/Assets/Plugins/Smooth Sync/SmoothSync.cs Line: 1366)
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/ClientScene.cs Line: 182)
+
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
+
+StartServer listen failed.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
+
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
+
+StartServer listen failed.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
+
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
+
+StartServer listen failed.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
+
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+UnityEngine.Networking.NetworkTransport:AddHostWrapperWithoutIp(HostTopologyInternal, Int32, Int32, Int32)
+UnityEngine.Networking.NetworkTransport:AddHost(HostTopology, Int32, String) (at C:\buildslave\unity\build\artifacts\generated\common\modules\UNET\UNETworkingBindings.gen.cs:435)
+UnityEngine.Networking.NetworkServerSimple:Listen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServerSimple.cs:99)
+UnityEngine.Networking.NetworkServer:InternalListen(String, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:203)
+UnityEngine.Networking.NetworkServer:Listen(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkServer.cs:186)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:342)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+
+[C:/buildslave/unity/build/Runtime/Networking/NetworkingV1/UNETHost.cpp line 492] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/modules/UNET/UNETworkingBindings.gen.cs Line: 435)
+
+StartServer listen failed.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo, ConnectionConfig, Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:344)
+UnityEngine.Networking.NetworkManager:StartServer(MatchInfo) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:286)
+UnityEngine.Networking.NetworkManager:StartServer() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:281)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:539)
+HostGame:StartUpLanHost() (at C:\projects\SongBird80\gamejam2018\Assets\Lobby\UIScripts\HostGame.cs:41)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:636)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:771)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:52)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkManager.cs Line: 344)
 

@@ -4,10 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using System;
+using UnityStandardAssets.CrossPlatformInput;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : NetworkBehaviour {
 
     public static int Puntaje = 0;
+    public GameObject GameOverScreen;
+    public static bool isGameOver = false;
     public GameObject Relleno;
     public static GameObject LocalPlayer;
     public GameObject Robot;
@@ -32,7 +35,7 @@ public class GameManager : MonoBehaviour {
 
         LocalPlayer = Observer;
     }
-
+    
     public void OnPlayerDeathTransform(GameObject player, NetworkConnection conn , int kills, int deaths , bool ToRaptor = true)
     {
         //GameObject newPlayer;
@@ -57,6 +60,17 @@ public class GameManager : MonoBehaviour {
     private void FixedUpdate()
     {
         Puntaje++;
+        //check if is game over, if that true enables the gameover screen and 
+        if (isGameOver)
+        {
+            if(GetComponent<GameManager>().GameOverScreen.activeInHierarchy == false)
+            {
+                GetComponent<GameManager>().GameOverScreen.SetActive(true);
+            }
+
+            if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
+                NetworkManager.singleton.ServerChangeScene("Nivel1");
+        }
     }
 
 }
