@@ -43,7 +43,7 @@ public class PlayerControlled : NetworkBehaviour {
     void RpcClientDie()
     {
         GameManager.isGameOver = true;
-        enabled = false;
+        this.gameObject.SetActive(false);
     }
 
 

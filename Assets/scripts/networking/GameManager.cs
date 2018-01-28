@@ -51,6 +51,7 @@ public class GameManager : NetworkBehaviour {
             {
                 isGameOver = false;
                 CmdReset();
+                NetworkManager.singleton.ServerChangeScene("Nivel1");
             }
         }
     }
@@ -65,16 +66,8 @@ public class GameManager : NetworkBehaviour {
     void RpcClientReset()
     {
         GameManager.isGameOver = false;
-        if(!isServer)
-            CmdChangeScene();
     }
-
-    //tell the server that it got the message of reseting the stage and changed gameover to false so is ready for the server to change the scene
-    [Command(channel = 0)]
-    void CmdChangeScene()
-    {
-        NetworkManager.singleton.ServerChangeScene("Nivel1");
-    }
+    
 
     IEnumerator GameOverAfterDie(int segundos)
     {
