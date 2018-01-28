@@ -9,6 +9,7 @@ public class Bird : PlayerControlled {
     public float energyLoss;
     public float pushSpeedY;
     public float speedX;
+    public float energyRecharge;
     Rigidbody2D rb;
     Camera mainCamera;
     EnergyBarFiller energyBar;
@@ -51,7 +52,7 @@ public class Bird : PlayerControlled {
 
     public void aumentarEnergia()
     {
-        energyBar.energy += 1f;
+        energyBar.energy += energyRecharge;
         if (energyBar.energy > 100) energyBar.energy = 100;
     }
 
