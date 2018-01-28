@@ -713,7 +713,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.4}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
 --- !u!212 &442533912
@@ -1188,6 +1188,11 @@ Prefab:
       propertyPath: GameOverScreen
       value: 
       objectReference: {fileID: 1605076521}
+    - target: {fileID: 114945732669228376, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
+        type: 2}
+      propertyPath: VictoryScreen
+      value: 
+      objectReference: {fileID: 2020467815}
     - target: {fileID: 114945732669228376, guid: 418e97e77a3c6ac49b3edb5fd9e2f2da,
         type: 2}
       propertyPath: Relleno
@@ -4531,6 +4536,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9428485dcf2eab546b0b63ac24403301, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2020467815 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1690370040167152, guid: 054bfd542a67c97419f142149623f6b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1982068129}
 --- !u!1 &2031616875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,7 +4596,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4607,7 +4617,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2031616875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 1.5, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 942066276}
