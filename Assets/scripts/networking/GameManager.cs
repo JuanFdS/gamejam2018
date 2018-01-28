@@ -71,4 +71,9 @@ public class GameManager : NetworkBehaviour {
         GetComponent<GameManager>().GameOverScreen.SetActive(true);
     }
 
+    public void disableEnergyBar()
+    {
+        EnergyBar.SetActive(false);
+    }
+
 }

@@ -26,10 +26,13 @@ public class Spectator : NetworkBehaviour {
         if ((isLocalPlayer && !isServer) || !isLocalPlayer)
         {
             playerPrefab = playerBird;
-            GameManager.singletone.EnergyBar.SetActive(true);
         }
         else
+        {
             playerPrefab = playerRobot;
+            GameManager.singletone.disableEnergyBar();
+        }
+            
 
         GameObject player = (GameObject)Instantiate(playerPrefab, playerPrefab.transform.position, playerPrefab.transform.rotation);
         NetworkServer.Destroy(gameObject);
