@@ -36,27 +36,6 @@ public class GameManager : NetworkBehaviour {
         LocalPlayer = Observer;
     }
     
-    public void OnPlayerDeathTransform(GameObject player, NetworkConnection conn , int kills, int deaths , bool ToRaptor = true)
-    {
-        //GameObject newPlayer;
-        //if (ToRaptor)
-        //    newPlayer = Instantiate<GameObject>(BirdController);
-        //else
-        //    newPlayer = Instantiate<GameObject>(RobotController);
-
-        //PlayerUnet newPlayerUnet = newPlayer.GetComponent<PlayerUnet>();
-        //playerScore newPlayerScore = newPlayer.GetComponent<playerScore>();
-        
-        //newPlayer.transform.position = rebornTransform.position;
-        //newPlayer.transform.rotation = rebornTransform.rotation;
-        
-        
-        //Destroy(player);
-        //invoco el metodo para reemplazar el jugador, en el local player el clientcontroller id es = 0
-        //NetworkServer.ReplacePlayerForConnection(conn, newPlayer, 0);
-
-    }
-
     private void FixedUpdate()
     {
         Puntaje++;

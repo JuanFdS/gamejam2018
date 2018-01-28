@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.Networking;
 
-public class PlayerControlled : MonoBehaviour {
+public class PlayerControlled : NetworkBehaviour {
 
 	Rigidbody2D rb;
 	private float timeLeftToTrip;
@@ -28,10 +29,26 @@ public class PlayerControlled : MonoBehaviour {
 	public void die()
     {
         //enabled = false;
-        gameObject.SetActive(false);
+        if (isLocalPlayer)
+            CmdDie();
     }
 
-	public void trip(float slowDownFactor, float timeToTrip){
+    [Command]
+    void CmdDie()
+    {
+        RpcClientDie();
+    }
+
+    [ClientRpc]
+    void RpcClientDie()
+    {
+        GameManager.isGameOver = true;
+        enabled = false;
+    }
+
+
+
+    public void trip(float slowDownFactor, float timeToTrip){
 		rb.velocity = GetComponent<Rigidbody2D>().velocity * slowDownFactor;
 		timeLeftToTrip = timeToTrip;
 	}
