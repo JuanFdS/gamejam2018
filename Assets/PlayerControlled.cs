@@ -20,7 +20,10 @@ public class PlayerControlled : NetworkBehaviour {
 	void FixedUpdate () {
 		control.enabled = !IsTripping();
 		timeLeftToTrip = Math.Max(0, timeLeftToTrip - 1);
-            }
+
+        if (transform.position.x > 338)
+            win();
+    }
 
 	private bool IsTripping () {
 		return timeLeftToTrip > 0;
@@ -31,6 +34,23 @@ public class PlayerControlled : NetworkBehaviour {
         //enabled = false;
         if (isLocalPlayer)
             CmdDie();
+    }
+
+    public void win()
+    {
+        CmdWin();
+    }
+
+    [Command]
+    void CmdWin()
+    {
+        RpcClientWin();
+    }
+    [ClientRpc]
+    void RpcClientWin()
+    {
+        GameManager.isVictory = true;
+        this.gameObject.SetActive(false);
     }
 
     [Command]
