@@ -453,7 +453,7 @@ MonoBehaviour:
   lerpSpeed: 0.5
   syncPosition: 1
   syncRotation: 7
-  syncVelocity: 7
+  syncVelocity: 1
   syncAngularVelocity: 7
   isPositionCompressed: 0
   isRotationCompressed: 0

@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interpolationBackTime: 0
   extrapolationTimeLimit: 0.5
-  extrapolationDistanceLimit: 1
+  extrapolationDistanceLimit: 0.7
   sendMovementThreshold: 0.001
   sendRotationThreshold: 0.001
   sendVelocityThreshold: 0.001
@@ -243,7 +243,7 @@ MonoBehaviour:
   lerpSpeed: 0.5
   syncPosition: 1
   syncRotation: 7
-  syncVelocity: 7
+  syncVelocity: 1
   syncAngularVelocity: 7
   isPositionCompressed: 0
   isRotationCompressed: 0

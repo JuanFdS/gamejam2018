@@ -10,7 +10,9 @@ public class GameManager : NetworkBehaviour {
 
     public static int Puntaje = 0;
     public GameObject GameOverScreen;
+    public GameObject VictoryScreen;
     public static bool isGameOver = false;
+    public static bool isVictory = false;
     public GameObject Relleno;
     public static GameObject LocalPlayer;
     public GameObject EnergyBar;
@@ -46,22 +48,38 @@ public class GameManager : NetworkBehaviour {
             if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
             {
                 isGameOver = false;
-                CmdReset();
+                CmdReset("GameOver");
+                NetworkManager.singleton.ServerChangeScene("Nivel1");
+            }
+        }
+        if (isVictory)
+        {
+            if (GetComponent<GameManager>().VictoryScreen.activeInHierarchy == false)
+            {
+                GetComponent<GameManager>().VictoryScreen.SetActive(true);
+            }
+            if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
+            {
+                isVictory = false;
+                CmdReset("Victory");
                 NetworkManager.singleton.ServerChangeScene("Nivel1");
             }
         }
     }
 
     [Command(channel = 0)]
-    void CmdReset()
+    void CmdReset(string situacion)
     {
-        RpcClientReset();
+        RpcClientReset(situacion);
     }
 
     [ClientRpc(channel = 0)]
-    void RpcClientReset()
+    void RpcClientReset(string situacion)
     {
-        GameManager.isGameOver = false;
+        if(situacion == "Victory")
+            GameManager.isVictory = false;
+        else
+            GameManager.isGameOver = false;
     }
     
 
