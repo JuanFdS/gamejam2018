@@ -38,8 +38,8 @@ public class GameManager : NetworkBehaviour {
 
     private void OnLevelWasLoaded(int level)
     {
-        public static bool isGameOver = false;
-}
+        isGameOver = false;
+    }
 
     private void FixedUpdate()
     {
