@@ -13,9 +13,9 @@ public class NetworkAnimationController : MonoBehaviour {
         AnimationController = this.GetComponent<Animator>();
         
     }
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+
+    // Update is called once per frame
+    void FixedUpdate () {
         float moveX = this.transform.position.x - previousPosition.x;
         float moveY = this.transform.position.y - previousPosition.y;
 
@@ -36,7 +36,7 @@ public class NetworkAnimationController : MonoBehaviour {
         previousPosition = this.transform.position;
 
         //evito que las los pequenios cambios en la red generen falsas animaciones
-        if(Mathf.Abs(moveX) > 0.01)
+        if(Mathf.Abs(moveX) > 0.05)
         {
             if (moveX > 0 && !m_FacingRight)
             {
@@ -54,7 +54,6 @@ public class NetworkAnimationController : MonoBehaviour {
 
     private void Flip()
     {
-        Corrutinas.singletone.resetScene("Nivel1", 80);
         // Switch the way the player is labelled as facing.
         m_FacingRight = !m_FacingRight;
 
