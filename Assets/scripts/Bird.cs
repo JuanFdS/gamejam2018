@@ -1,9 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Bird : PlayerControlled {
 
+    public float flySpeedY;
+    public float energyLoss;
+    public float pushSpeedY;
+    public float speedX;
+    public float energyRecharge;
+    public AudioSource pushSound;
     Rigidbody2D rb;
     Camera mainCamera;
     EnergyBarFiller energyBar;
@@ -23,15 +30,15 @@ public class Bird : PlayerControlled {
         {
             //transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
 
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + 0.3f);
-            energyBar.energy -= 0.5f;
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + flySpeedY);
+            energyBar.energy = Math.Max(0, energyBar.energy - energyLoss);
         }
         if (Input.GetKey(KeyCode.Y))
         {
             energyBar.energy = 100;
         }
         rb.velocity = new Vector2(2, rb.velocity.y);
-        transform.position = new Vector2(transform.position.x + 0.01f, transform.position.y);
+        transform.position = new Vector2(transform.position.x + speedX, transform.position.y);
         mainCamera.transform.position = new Vector3(transform.position.x, mainCamera.transform.position.y, -10);
     }
 
@@ -46,13 +53,14 @@ public class Bird : PlayerControlled {
 
     public void aumentarEnergia()
     {
-        energyBar.energy += 1f;
+        energyBar.energy += energyRecharge;
         if (energyBar.energy > 100) energyBar.energy = 100;
     }
 
     public void push()
     {
-        rb.velocity = new Vector2(rb.velocity.x, 8);
+        pushSound.Play();
+        rb.velocity = new Vector2(rb.velocity.x, pushSpeedY);
     }
 }
  

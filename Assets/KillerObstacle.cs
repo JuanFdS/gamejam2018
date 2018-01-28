@@ -20,4 +20,11 @@ public class KillerObstacle : MonoBehaviour {
             collision.GetComponent<PlayerControlled>().die();
         }
 	}
+
+	private void OnCollisionEnter2D(Collision2D collision) {
+		if (collision.collider.CompareTag(tagTarget))
+        {
+            collision.collider.GetComponent<PlayerControlled>().die();
+        }
+	}
 }

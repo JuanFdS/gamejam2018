@@ -34,6 +34,7 @@ GameObject:
   - component: {fileID: 114878191012936650}
   - component: {fileID: 114282592278943958}
   - component: {fileID: 114895720077415508}
+  - component: {fileID: 114721319243413698}
   m_Layer: 10
   m_Name: CharacterRobotBoy
   m_TagString: Player
@@ -197,9 +198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08f91df3bd212f429df17f53ce2f364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxSpeed: 10
+  m_MaxSpeed: 15
   m_JumpForce: 135
-  m_CrouchSpeed: 0.25
+  m_CrouchSpeed: 0.48
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
@@ -358,6 +359,17 @@ MonoBehaviour:
     i15: 112
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114721319243413698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ae20b5ecb8845ce922ea1434fc7f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114878191012936650
 MonoBehaviour:
   m_ObjectHideFlags: 1

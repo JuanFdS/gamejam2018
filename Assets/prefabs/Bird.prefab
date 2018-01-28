@@ -23,8 +23,9 @@ GameObject:
   - component: {fileID: 114940759499289992}
   - component: {fileID: 50781713695824394}
   - component: {fileID: 61045036760873702}
-  - component: {fileID: 114882340737261366}
-  - component: {fileID: 114205431214889056}
+  - component: {fileID: 95928728595317758}
+  - component: {fileID: 81952265848109230}
+  - component: {fileID: 82029471682201400}
   m_Layer: 8
   m_Name: Bird
   m_TagString: Bird
@@ -40,7 +41,7 @@ Transform:
   m_GameObject: {fileID: 1950114467831656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1527276, y: 2.6055074, z: 0}
-  m_LocalScale: {x: 0.32532722, y: 0.32532722, z: 0.32532722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -59,7 +60,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.1
+  m_GravityScale: 0.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -81,82 +82,119 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
+    oldSize: {x: 1.02, y: 0.74}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114205431214889056
-MonoBehaviour:
+--- !u!81 &81952265848109230
+AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1950114467831656}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9de747ec6d608d4b984ba2628a309b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interpolationBackTime: 0.1
-  extrapolationTimeLimit: 0.3
-  extrapolationDistanceLimit: 0.3
-  sendMovementThreshold: 0.001
-  sendRotationThreshold: 0.001
-  sendVelocityThreshold: 0.001
-  sendAngularVelocityThreshold: 0.001
-  receivedMovementThreshold: 0.001
-  receivedRotationThreshold: 0.001
-  positionSnapThreshold: 5
-  rotationSnapThreshold: 60
-  lerpSpeed: 0.2
-  syncPosition: 1
-  syncRotation: 7
-  syncVelocity: 1
-  syncAngularVelocity: 7
-  isPositionCompressed: 1
-  isRotationCompressed: 0
-  isVelocityCompressed: 1
-  isAngularVelocityCompressed: 0
-  whereToUpdateTransform: 1
-  sendRate: 30
-  networkChannel: 1
-  childObjectToSync: {fileID: 0}
---- !u!114 &114882340737261366
-MonoBehaviour:
+--- !u!82 &82029471682201400
+AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1950114467831656}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 155
-    i1: 166
-    i2: 204
-    i3: 45
-    i4: 79
-    i5: 100
-    i6: 180
-    i7: 1
-    i8: 74
-    i9: 141
-    i10: 253
-    i11: 41
-    i12: 227
-    i13: 221
-    i14: 105
-    i15: 226
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2a59472efd0c04a32834aba0229c1133, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!95 &95928728595317758
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950114467831656}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39bf60e9b6f44e142a6db7cf89266e8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114940759499289992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -168,6 +206,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4802e7b11ea09994ea25e761e6987f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flySpeedY: 0.5
+  energyLoss: 1
+  pushSpeedY: 8
+  speedX: 0.1
+  energyRecharge: 2.5
+  pushSound: {fileID: 82029471682201400}
 --- !u!212 &212310708325581528
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -202,7 +246,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: efc2ce043451bfd439aa722b677977e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69f8bd3f9ee4be2488b34fd1eb613307, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
