@@ -2737,16 +2737,6 @@ Prefab:
       propertyPath: m_Name
       value: Antena (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 82837601570931072, guid: f0aac71c201bb854f9fb2d7862390e78,
-        type: 2}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: bdffc0aa4fac048bb8c35c54e9ae5c61, type: 3}
-    - target: {fileID: 114450296113307752, guid: f0aac71c201bb854f9fb2d7862390e78,
-        type: 2}
-      propertyPath: backgroundAudio
-      value: 
-      objectReference: {fileID: 2031616881}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0aac71c201bb854f9fb2d7862390e78, type: 2}
   m_IsPrefabParent: 0
@@ -3825,7 +3815,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 28b8c62cbf8294a6a98ee0b7acfd983c, type: 3}
+      objectReference: {fileID: 8300000, guid: bdffc0aa4fac048bb8c35c54e9ae5c61, type: 3}
     - target: {fileID: 114450296113307752, guid: f0aac71c201bb854f9fb2d7862390e78,
         type: 2}
       propertyPath: earTransform
