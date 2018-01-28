@@ -240,10 +240,10 @@ MonoBehaviour:
   receivedRotationThreshold: 0.001
   positionSnapThreshold: 5
   rotationSnapThreshold: 60
-  lerpSpeed: 0.2
+  lerpSpeed: 0.4
   syncPosition: 1
   syncRotation: 7
-  syncVelocity: 1
+  syncVelocity: 7
   syncAngularVelocity: 7
   isPositionCompressed: 0
   isRotationCompressed: 0
