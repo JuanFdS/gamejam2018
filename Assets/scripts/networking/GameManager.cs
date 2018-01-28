@@ -35,7 +35,12 @@ public class GameManager : NetworkBehaviour {
 
         LocalPlayer = Observer;
     }
-    
+
+    private void OnLevelWasLoaded(int level)
+    {
+        public static bool isGameOver = false;
+}
+
     private void FixedUpdate()
     {
         Puntaje++;
@@ -50,7 +55,6 @@ public class GameManager : NetworkBehaviour {
             if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
             {
                 NetworkManager.singleton.ServerChangeScene("Nivel1");
-                isGameOver = false;
             }
         }
     }
