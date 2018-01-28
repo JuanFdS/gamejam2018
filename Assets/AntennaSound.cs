@@ -11,11 +11,18 @@ public class AntennaSound : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
 		audioSource = GetComponent<AudioSource>();
+		GetComponent<CircleCollider2D>().radius = audioSource.maxDistance;
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
-		var distance = Vector2.Distance(earTransform.position, transform.position);
-		backgroundAudio.mute = audioSource.maxDistance >= distance;
+
+	private void OnTriggerEnter2D(Collider2D other) {
+		if(other.CompareTag("Bird")) {
+			backgroundAudio.mute = true;
+		}
+	}
+
+	private void OnTriggerExit2D(Collider2D other) {
+		if(other.CompareTag("Bird")) {
+			backgroundAudio.mute = false;
+		}
 	}
 }

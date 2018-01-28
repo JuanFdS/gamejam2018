@@ -8,6 +8,7 @@ public class Bird : PlayerControlled {
     public float flySpeedY;
     public float energyLoss;
     public float pushSpeedY;
+    public float speedX;
     Rigidbody2D rb;
     Camera mainCamera;
     EnergyBarFiller energyBar;
@@ -35,7 +36,7 @@ public class Bird : PlayerControlled {
             energyBar.energy = 100;
         }
         rb.velocity = new Vector2(2, rb.velocity.y);
-        transform.position = new Vector2(transform.position.x + 0.01f, transform.position.y);
+        transform.position = new Vector2(transform.position.x + speedX, transform.position.y);
         mainCamera.transform.position = new Vector3(transform.position.x, mainCamera.transform.position.y, -10);
     }
 

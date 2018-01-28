@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50781713695824394}
   - component: {fileID: 61045036760873702}
   - component: {fileID: 95928728595317758}
+  - component: {fileID: 81952265848109230}
   m_Layer: 8
   m_Name: Bird
   m_TagString: Bird
@@ -89,6 +90,13 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!81 &81952265848109230
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950114467831656}
+  m_Enabled: 1
 --- !u!95 &95928728595317758
 Animator:
   serializedVersion: 3
@@ -120,6 +128,7 @@ MonoBehaviour:
   flySpeedY: 0.3
   energyLoss: 1
   pushSpeedY: 8
+  speedX: 0.1
 --- !u!212 &212310708325581528
 SpriteRenderer:
   m_ObjectHideFlags: 1
