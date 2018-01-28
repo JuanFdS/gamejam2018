@@ -36,11 +36,6 @@ public class GameManager : NetworkBehaviour {
         LocalPlayer = Observer;
     }
 
-    private void OnLevelWasLoaded(int level)
-    {
-        isGameOver = false;
-    }
-
     private void FixedUpdate()
     {
         Puntaje++;
@@ -54,9 +49,31 @@ public class GameManager : NetworkBehaviour {
 
             if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
             {
-                NetworkManager.singleton.ServerChangeScene("Nivel1");
+                isGameOver = false;
+                CmdReset();
             }
         }
+    }
+
+    [Command]
+    void CmdReset()
+    {
+        RpcClientReset();
+    }
+
+    [ClientRpc]
+    void RpcClientReset()
+    {
+        GameManager.isGameOver = false;
+        if(!isServer)
+            CmdChangeScene();
+    }
+
+    //tell the server that it got the message of reseting the stage and changed gameover to false so is ready for the server to change the scene
+    [Command]
+    void CmdChangeScene()
+    {
+        NetworkManager.singleton.ServerChangeScene("Nivel1");
     }
 
     IEnumerator GameOverAfterDie(int segundos)
