@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpikeBall : MonoBehaviour {
 
+
+    public AudioSource fall;
     private Rigidbody2D rb;
 	// Use this for initialization
 	void Start () {
@@ -22,6 +24,7 @@ public class SpikeBall : MonoBehaviour {
     {
         if (other.GetComponent<Collider2D>().CompareTag("Bird"))
         {
+            fall.Play();
             rb.gravityScale = 3;
         }
     }
