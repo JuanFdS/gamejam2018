@@ -44,12 +44,21 @@ public class GameManager : NetworkBehaviour {
         {
             if(GetComponent<GameManager>().GameOverScreen.activeInHierarchy == false)
             {
-                GetComponent<GameManager>().GameOverScreen.SetActive(true);
+                StartCoroutine(GameOverAfterDie(2));
             }
 
             if (CrossPlatformInputManager.GetButtonDown("Enter") && isServer)
+            {
                 NetworkManager.singleton.ServerChangeScene("Nivel1");
+                isGameOver = false;
+            }
         }
+    }
+
+    IEnumerator GameOverAfterDie(int segundos)
+    {
+        yield return new WaitForSeconds(segundos);
+        GetComponent<GameManager>().GameOverScreen.SetActive(true);
     }
 
 }
