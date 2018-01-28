@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class AntennaSound : MonoBehaviour {
 
 	public Transform earTransform;
-	AudioSource audioSource;
+	public AudioSource audioSource;
+	public AudioSource backgroundAudio;
 	// Use this for initialization
 	void Awake () {
 		audioSource = GetComponent<AudioSource>();
@@ -14,8 +16,6 @@ public class AntennaSound : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		var distance = Vector2.Distance(earTransform.position, transform.position);
-		audioSource.volume = 1 / distance;
-		Debug.log(distance);
-		Debug.Log(audioSource.volume);
+		backgroundAudio.mute = audioSource.maxDistance >= distance;
 	}
 }
