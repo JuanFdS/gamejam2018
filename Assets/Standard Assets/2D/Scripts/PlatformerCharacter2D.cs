@@ -20,8 +20,7 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool collidingWithWall;
         private float m_ActualSpeed;                    // The fastest the player can travel in the x axis.
-        public AudioSource walk;
-     
+       
         private void Awake()
         {
             // Setting up references.
@@ -68,13 +67,7 @@ namespace UnityStandardAssets._2D
 
         public void Move(float move, bool crouch, bool jump)
         {
-            if (move!=0) {
-                walk.enabled = true;
-            }
-            else
-            {
-                walk.enabled = false;
-            }
+        
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
             {
