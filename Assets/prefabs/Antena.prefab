@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4238542770209284}
   - component: {fileID: 82837601570931072}
-  - component: {fileID: 82198799403005078}
   - component: {fileID: 114450296113307752}
   - component: {fileID: 58738052918365916}
+  - component: {fileID: 82383857961776982}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -108,7 +108,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!82 &82198799403005078
+--- !u!82 &82383857961776982
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -117,7 +117,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b907ffd4fcc724ebc8f8f9b47e5b5fe8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ebecdbcf8b8cd5146afbd0f96b397d33, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -125,12 +125,12 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 239
-  DopplerLevel: 0
-  MinDistance: 11.281228
-  MaxDistance: 28
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 24
+  MaxDistance: 29
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -138,32 +138,20 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.63901955
-      value: 0
+      time: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.7039966
-      value: 0.19670987
-      inSlope: 0.092983246
-      outSlope: 0.092983246
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.7950069
-      value: 0.4298687
-      inSlope: -5.1509376
-      outSlope: -5.1509376
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 0.869751
+      time: 1
       value: 0
-      inSlope: -4.003316
-      outSlope: -4.003316
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
