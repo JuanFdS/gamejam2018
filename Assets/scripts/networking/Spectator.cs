@@ -25,11 +25,11 @@ public class Spectator : NetworkBehaviour {
 	void Cmd_Spawn(){
         if ((isLocalPlayer && !isServer) || !isLocalPlayer)
         {
-            playerPrefab = playerRobot;
+            playerPrefab = playerBird;
         }
         else
         {
-            playerPrefab = playerBird;
+            playerPrefab = playerRobot;
             GameManager.singletone.disableEnergyBar();
         }
             
